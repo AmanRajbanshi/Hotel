@@ -1,0 +1,318 @@
+.reservationsectionbody {
+  background-color: #f1f1f1;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+}
+.termsandpolices {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.checkinoutsection {
+  font-size: 15px;
+}
+.book {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start !important;
+  text-align: left !important;
+  color: rgb(184, 177, 177);
+  font-weight: bold;
+}
+.yourbook {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.reservationform {
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+  margin-left: 65px;
+  margin-top: 10px;
+}
+.labelname {
+  margin-top: 30px;
+  margin-left: 65px;
+  font-weight: bold;
+  text-align: left !important;
+}
+.labelname-checkOut {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: left !important;
+}
+
+.labelname-checkIn {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: left !important;
+}
+.checkIn-div {
+  margin-left: 40px;
+}
+.checkOut-div {
+  margin-left: 20px;
+}
+
+.reservationsectionname,
+.reservationsectionphone,
+.reservationsectionemail {
+  margin-left: 65px;
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  border: 2px solid gray;
+}
+.chinform {
+  border: 1px solid red;
+}
+.reservationsectioncheckinform {
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  margin-left: 25px;
+  border: 2px solid gray;
+}
+.reservationsectioncheckoutform {
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  margin-left: 25px;
+  border: 2px solid gray;
+}
+.reservationsectioncheckoutform1 {
+  margin-left: 65px;
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.reservationsectionbutton {
+  margin-left: 65px;
+  margin-top: 50px;
+  width: 20%;
+  height: 50px;
+  color: #fff;
+}
+
+@media screen and (max-width: 430px) and (min-width: 320px) {
+  .reservationsectionbody {
+    margin-top: 0px !important;
+  }
+  .reservationform {
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
+    text-align: left !important;
+    margin-left: 0px;
+  }
+  .labelname {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .reservationsectioncheckoutform {
+    margin-left: 0px;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+  }
+  .reservationsectionbutton {
+    margin-left: 0px;
+    width: 50%;
+    height: 50px;
+  }
+  .bbb {
+    margin-left: -5px !important;
+  }
+  .reservationsectionname,
+  .reservationsectionphone,
+  .reservationsectionemail,
+  .reservationsectioncheckoutform {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .reservationsectioncheckoutform1 {
+    margin-left: 0px;
+  }
+  .reservationsectioncheckinform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .reservationsectioncheckoutform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .labelname-checkOut {
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .labelname-checkIn {
+    margin-left: 0px !important;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .checkIn-div {
+    margin-left: 0px;
+  }
+  .checkOut-div {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 435px) {
+  .reservationsectionbody {
+    background-color: #f1f1f1;
+    width: 40%;
+    text-align: left;
+  }
+  .sideformsection {
+    width: 60%;
+    text-align: left;
+  }
+  .book {
+    position: relative;
+    text-align: left;
+    margin-left: -50px;
+  }
+  .reservationform {
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .labelname {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-weight: bold;
+  }
+
+  .reservationsectionname,
+  .reservationsectionphone,
+  .reservationsectionemail {
+    width: 100% !important;
+    height: 40px !important;
+    border: 2px solid gray !important;
+  }
+  .reservationsectioncheckoutform1 {
+    margin-left: 0px;
+  }
+  .reservationsectionbutton {
+    margin-left: 0px;
+    width: 30%;
+  }
+
+  .reservationsectioncheckinform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .reservationsectioncheckoutform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .labelname-checkOut {
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .labelname-checkIn {
+    margin-left: 0px !important;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .checkIn-div {
+    margin-left: 0px;
+  }
+  .checkOut-div {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 775px) {
+  .reservationsectionbody {
+    background-color: #f1f1f1;
+    width: 40%;
+    text-align: left;
+  }
+  .sideformsection {
+    width: 60%;
+    text-align: left;
+  }
+  .book {
+    margin-left: -50px;
+  }
+  .reservationform {
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .labelname {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-weight: bold;
+  }
+  .reservationsectionname,
+  .reservationsectionphone,
+  .reservationsectionemail {
+    width: 100% !important;
+    height: 40px !important;
+    border: 2px solid gray !important;
+  }
+  .reservationsectioncheckoutform1 {
+    margin-left: 0px;
+  }
+  .reservationsectionbutton {
+    margin-left: 0px;
+  }
+
+  .reservationsectioncheckinform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .reservationsectioncheckoutform {
+    margin-top: 5px;
+    width: 100% !important;
+    height: 50px;
+    margin-left: 0px !important;
+    border: 2px solid gray;
+  }
+  .labelname-checkOut {
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .labelname-checkIn {
+    margin-left: 0px !important;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .checkIn-div {
+    margin-left: 0px;
+  }
+  .checkOut-div {
+    margin-left: 0px;
+  }
+}

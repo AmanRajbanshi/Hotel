@@ -1,0 +1,13 @@
+.leftsideDescription {
+  display: flex;
+  align-items: flex-start;
+  color: rgb(109, 97, 97);
+  font-size: 13px;
+}
+.rightsideDescription {
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  color: gray;
+  font-weight: bold;
+}

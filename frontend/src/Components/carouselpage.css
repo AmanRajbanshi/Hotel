@@ -1,0 +1,72 @@
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: "white";
+}
+.centeredText {
+  text-align: left;
+  color: white;
+}
+.centeredSubText {
+  text-align: center;
+  color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: transparent !important;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+  width: 25px;
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .carouselHeight {
+    height: 450px !important;
+  }
+  .centeredText {
+    position: absolute;
+    top: 100% !important;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  .centeredSubText {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    top: 100px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .carouselHeight {
+    height: 450px !important;
+  }
+  .centeredText {
+    position: absolute;
+    top: 100% !important;
+    width: 200% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  .centeredSubText {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+  }
+}

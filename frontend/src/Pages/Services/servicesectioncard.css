@@ -1,0 +1,119 @@
+.internationalcuisinesimage {
+  width: 100%;
+  margin-top: 0px !important;
+  margin-left: 25px !important;
+}
+.secondItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  width: 55%;
+}
+.des {
+  text-align: start !important;
+  flex-direction: column;
+  width: 90%;
+}
+.internationalcuisinestitle {
+  text-align: left !important;
+  align-items: start !important;
+  color: #000 !important;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 80px;
+  margin-top: -20px;
+}
+.internationalcuisinessubtitle {
+  text-align: left !important;
+  align-items: start !important;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 80px;
+}
+.internationalcuisinesdescription {
+  text-align: left !important;
+  align-items: start !important;
+  font-size: 14px;
+  padding-left: 80px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 426px) and (min-width: 320px) {
+  .items {
+    display: flex;
+  }
+  .internationalcuisinesimage2 {
+    display: none !important;
+  }
+  .internationalcuisinesimagepart {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-right: 30px !important;
+  }
+  .internationalcuisinestitle {
+    font-size: 18px;
+    font-weight: 400px;
+    width: 320px !important;
+    margin-left: -65px;
+    margin-top: -100px;
+  }
+  .internationalcuisinessubtitle {
+    font-size: 14px;
+    color: black;
+    width: 400px !important;
+    text-align: start !important;
+    margin-top: -10px;
+    margin-left: -65px;
+  }
+  .internationalcuisinesdescription {
+    width: 380px;
+    margin-left: -65px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 427px) {
+  .internationalcuisinesimage1 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .internationalcuisinestitle {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+  .internationalcuisines2 {
+    display: flex;
+    justify-content: flex-start !important;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .internationalcuisines3 {
+    color: gray;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .internationalcuisinesimage2 {
+    display: none;
+  }
+  .secondItem {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 50%;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 15%;
+  }
+}

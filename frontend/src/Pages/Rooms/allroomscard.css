@@ -1,0 +1,53 @@
+.allrooms {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.firstsection {
+  position: relative;
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image1ofminisuite {
+  position: relative;
+  box-sizing: border-box !important;
+  transition: all 0.3s;
+}
+
+.image1ofminisuite:hover {
+  width: 100%;
+  box-sizing: border-box;
+  transform: scale(1.1);
+}
+
+.minisuitetitleofallrooms,
+.standardroomtitleofallrooms {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  color: rgb(51, 51, 51);
+  text-align: start !important;
+}
+.minisuitetitleofallrooms:hover {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  color: #8e7037;
+}
+.standardroomtitleofallrooms:hover {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  color: #8e7037;
+}
+.minisuite_transform {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}

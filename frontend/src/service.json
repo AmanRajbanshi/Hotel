@@ -1,0 +1,37 @@
+[
+    {
+        "image1":"https://hotelasiatique.com.np/images/Room/room-26.jpg",
+        "image2":"https://hotelasiatique.com.np/images/Room/room-27.jpg",
+        "image_title":"INTERNATIONAL CUISINES",
+         "image_subtitle":"PROFESSIONAL CHEF PREPARED",
+         "image_descritption":"Enjoy the finest food in Biratnagar prepared delicately by our professional chef and served with humble staffs."
+    },
+     {
+        "image1":"https://hotelasiatique.com.np/images/Room/room-25.jpg",
+        "image2":"https://hotelasiatique.com.np/images/Room/room-24.jpg",
+        "image_title":"RESTAURANT & BAR",
+         "image_subtitle":"WITH BUFFET BREAKFAST",
+         "image_descritption":"Serving you the delicious cuisines our 45 seated restaurant cum bar serves breakfast, lunch , dinner in Indian, Nepalese, Chinese and Continental style."
+    }, {
+        "image1":"https://hotelasiatique.com.np/images/Room/room-18.jpg",
+        "image2":"https://hotelasiatique.com.np/images/Room/room-19.jpg",
+        "image_title":"BANQUET HALL",
+         "image_subtitle":"500 SEATED",
+         "image_descritption":"Our banquet hall is suitable for large wedding receptions, professional conferences and seminars with the latest equipments and selective lighting."
+    },
+     {
+        "image1":"https://hotelasiatique.com.np/images/Room/room-21.jpg",
+        "image2":"https://hotelasiatique.com.np/images/Room/room-20.jpg",
+        "image_title":"MULTIPURPOSE HALLS",
+         "image_subtitle":"MEDIUM & LARGE MEETINGS/SEMINARS",
+         "image_descritption":"Hotel Asiatique provides 500 seated hall suitable for large scale conferences and theatre based seminars."
+    },
+     {
+        "image1":"https://hotelasiatique.com.np/images/Room/room-22.jpg",
+        "image2":"https://hotelasiatique.com.np/images/Room/room-23.jpg",
+        "image_title":"MEETING HALLS",
+         "image_subtitle":"SMALL & MEDIUM SCALE MEETINGS",
+         "image_descritption":"Our two different meeting rooms are private with perfect settings for 21 to 250 guests and equipped with all technical equipments."
+    }
+   
+]

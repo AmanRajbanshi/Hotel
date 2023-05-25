@@ -1,0 +1,191 @@
+.resBardes {
+  width: 80%;
+  text-align: start !important;
+  margin-top: 50px;
+}
+
+.resturantandbar1 {
+  text-align: left !important;
+  align-items: start !important;
+  color: #000 !important;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 80px;
+}
+.resturantandbar2 {
+  text-align: left !important;
+  align-items: start !important;
+  color: #000 !important;
+  padding-left: 80px;
+}
+.resturantandbar3 {
+  text-align: left !important;
+  align-items: start !important;
+  padding-left: 80px;
+}
+.image2 {
+  margin-left: 50px !important;
+  padding-left: 50px;
+}
+.helloaaa {
+  margin-left: 8% !important;
+}
+.resturantandbarimage1 {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+.resturantandbarimage2 {
+  margin-top: 20px;
+}
+.image1 {
+  margin-left: -180px;
+}
+.resturantandbarimage1 {
+  width: 101%;
+}
+@media screen and (max-width: 320px) {
+  .resBardes {
+    position: relative !important;
+    left: 10px !important;
+  }
+  .image1 {
+    position: relative;
+    left: 20px;
+  }
+  .resturantandbarimage1 {
+    position: relative !important;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hehehe {
+    position: relative;
+    left: -25px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+  }
+  .resBardes {
+    position: relative;
+    left: -100px;
+  }
+  .resturantandbar1,
+  .resturantandbar2 {
+    margin-left: 20px !important;
+    width: 300px !important;
+  }
+  .resturantandbar3 {
+    margin-left: 20px !important;
+    width: 370px !important;
+  }
+  .resturantandbarimage1 {
+    position: relative;
+    left: 50px;
+    margin-left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .resturantandbarimage2 {
+    display: none !important;
+  }
+  .hehehe {
+    position: relative;
+    left: -25px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+  }
+  .resBardes {
+    position: relative;
+    left: 80px;
+  }
+
+  .resturantandbarimage1 {
+    position: relative;
+    left: 50px;
+  }
+  .resturantandbar1 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400px;
+    color: rba(35, 82, 124);
+    margin-left: -70px;
+    margin-top: -30px;
+  }
+  .resturantandbar2 {
+    text-align: left !important;
+    align-items: start !important;
+    width: 350px !important;
+    font-size: 18px;
+    margin-left: -70px;
+    margin-top: -5px;
+  }
+  .resturantandbar3 {
+    color: gray !important;
+    margin-left: -70px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resturantandbarimage2 {
+    display: none !important;
+  }
+
+  .image1 {
+    display: flex;
+    justify-content: flex-end !important;
+    margin-left: -100px;
+  }
+  .resBardes {
+    margin-left: -90px;
+  }
+  .resturantandbar1 {
+    width: 100%;
+    font-size: 18px;
+  }
+  .resturantandbar2 {
+    width: 100%;
+    font-size: 15px;
+    width: 500px;
+  }
+  .resturantandbar3 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .image1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -30px;
+  }
+  .resturantandbarimage1 {
+    margin-left: 100px;
+  }
+  .oorder {
+    display: flex;
+    flex-direction: column;
+  }
+  .resturantandbarimage2 {
+    height: 100%;
+    width: 100%;
+  }
+  .resturantandbar1 {
+    font-size: 30px;
+    color: #000;
+  }
+  .resturantandbar2 {
+    color: #000 !important;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}

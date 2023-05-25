@@ -1,0 +1,39 @@
+.homebuttonofdescription {
+  font-family: "Poppins,san-serif";
+  background-color: none !important;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(142, 112, 55);
+  text-align: start;
+  background-color: transparent;
+  transition: 1s;
+}
+.hhhh {
+  display: flex;
+  flex-direction: column;
+}
+
+.homebuttonofdescription:hover {
+  content: "";
+  width: 40%;
+  border-bottom: 2px solid #8e7037;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.sno,
+.singleguest,
+.doubleguest,
+.tripleguest {
+  font-size: 12px;
+}
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}

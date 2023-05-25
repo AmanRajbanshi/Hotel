@@ -1,0 +1,290 @@
+.aboutusTitle {
+  font-family: poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: rgb(51, 51, 51);
+}
+p {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(51, 51, 51);
+}
+.textDescription {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.guestChooseTitle {
+  font-family: poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: rgb(51, 51, 51);
+}
+
+.parallex {
+  background-image: url("https://hotelasiatique.com.np/images/Home-4/slider.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.countup1 {
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.servicesinaboutsection {
+  position: absolute;
+  top: 1700px;
+  background-color: white !important;
+}
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+  .imageSectionOfAbout1 {
+    width: 100%;
+    margin-top: -30px !important;
+  }
+  .aboutusTitle {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .first-card {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .imageSectionOfAbout2 {
+    width: 100%;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .countingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+  }
+  .textInCounting {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .NumberInCounting {
+    font-size: 20px;
+  }
+  .guestChooseTitle {
+    font-size: 15px !important;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 375px) {
+  .imageSectionOfAbout1 {
+    width: 100%;
+  }
+
+  .imageSectionOfAbout2 {
+    width: 100%;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .titleofabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .first-card {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .countingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+  }
+  .textInCounting {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .NumberInCounting {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .imageSectionOfAbout1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .imageSectionOfAbout {
+    width: 100% !important;
+    height: 50%;
+  }
+  .titleofabout {
+    width: 70%;
+    padding-right: 5px;
+  }
+
+  .first-card {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: column-reverse !important ;
+  }
+  .mainimageSectionAbout {
+    width: 100%;
+  }
+  .imageSectionOfAbout2 {
+    width: 100% !important;
+    height: 80%;
+  }
+  .descriptionOfChoosing {
+    width: 100%;
+    margin-top: -50px !important;
+  }
+  .countingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+  }
+  .textInCounting {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .NumberInCounting {
+    font-size: 20px;
+  }
+  .helloaaa {
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .helloaaa {
+    width: 100% !important;
+  }
+  .imageSectionOfAbout1 {
+    width: 50%;
+  }
+  .imageSectionOfAbout2 {
+    width: 100%;
+    height: 80%;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-card {
+    display: flex;
+  }
+  .imageSectionOfAbout {
+    width: 50%;
+  }
+  .imageSectionOfAbout1 {
+    width: 100% !important;
+    height: 100%;
+  }
+  .textDescription {
+    width: 150% !important;
+    padding: 10px;
+  }
+  .guestChooseTitle {
+    width: 80%;
+    font-weight: bold;
+  }
+  .countingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+  }
+  .textInCounting {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .NumberInCounting {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .first-card {
+    display: flex;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: row;
+  }
+  .countingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+  }
+  .textInCounting {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .NumberInCounting {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 376px) and (min-width: 320px) {
+  .imageSectionOfAbout1 {
+    height: 100%;
+    width: 100%;
+    margin-top: -60px;
+  }
+  .imageSectionOfAbout2 {
+    height: 100%;
+    width: 100%;
+  }
+  .titleofabout {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -50px !important;
+  }
+  .aboutTitle {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .guestChooseTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+  }
+  .guestChooseDescription {
+    font-family: poppins, sans-serif;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .headerofWhyToChooseHotelAsiatique {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,12 @@
+.otherTitle {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start !important;
+  color: rgb(109, 97, 97);
+}
+.otherDescription {
+  align-items: start;
+  line-height: 20px;
+  margin-top: -12px;
+  font-size: 13px;
+}

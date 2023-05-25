@@ -1,0 +1,25 @@
+.thirdContent {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  text-align: center;
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .firstContent,
+  .secondContent,
+  .emailw {
+    display: none;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .thirdContent {
+    position: absolute;
+    top: 20% !important;
+    margin-top: 5% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

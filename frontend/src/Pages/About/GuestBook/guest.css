@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .guestbookcard {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .titleInGuestBookCard {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .titleInGuestBookCard {
+    text-align: center;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .firstimage {
+    height: 650px;
+  }
+}

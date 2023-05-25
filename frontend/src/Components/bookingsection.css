@@ -1,0 +1,302 @@
+.firstname {
+  margin: 0 auto;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border: 1px solid gray;
+  margin-top: -8px;
+}
+.div2 {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+}
+.div3 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.div4 {
+  margin-left: -30px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+}
+.arrivaldate,
+.departuredate,
+.adults,
+.childs {
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+  color: #8e7037;
+}
+.div3,
+.div4,
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .div1 input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 150px !important;
+} */
+/* .div2 input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 150px !important;
+} */
+.div3 input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  text-align: center;
+  margin-top: -10px;
+  border: none;
+}
+.div4 input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  text-align: center;
+  margin-top: -10px;
+  border: none;
+}
+.div5 {
+  width: 200px;
+  height: 150px;
+  margin-left: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8e7037;
+  border: 1px solid gray;
+}
+.booknow {
+  border: none;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  background: #8e7037;
+}
+
+@media screen and (max-width: 480px) {
+  .containerfluidonsmall {
+    background-color: #001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .booknow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    background-color: white;
+  }
+  .div1,
+  .div2,
+  .div4,
+  .div5 {
+    width: 280px !important;
+    height: 100px;
+    margin: 0 auto !important;
+  }
+  .div3 {
+    width: 280px !important;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto !important;
+  }
+  input {
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+  .div5 {
+    background-color: #8e7037;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerontablap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: #8e7037;
+  }
+  .div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -8px;
+    height: 100px;
+    font-size: 12px;
+    /* border: 1px solid red; */
+  }
+
+  .div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    font-size: 12px;
+    margin-left: -30px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+  }
+  input {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px !important;
+    /* border: 1px solid red; */
+  }
+  .div3 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+
+    /* border: 1px solid red; */
+    /* margin-left: -70px; */
+
+    height: 100px;
+    width: 100px;
+    /* margin-left:10px; */
+  }
+  .adult {
+    /* border: 1px solid red !important; */
+    width: 40px !important;
+  }
+  .div4 {
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+
+    height: 100px;
+    width: 100px;
+  }
+
+  .div5 {
+    background-color: #8e7037;
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  .booknow {
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .containeronlargedevice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8e7037;
+    overflow-x: hidden !important;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    background-color: white;
+  }
+  .div1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto !important;
+    margin-top: -8px !important;
+  }
+  .div2 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto !important;
+  }
+  input {
+    width: 150px !important;
+    margin: 0 auto !important;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    width: 150px;
+    margin-left: 5px;
+  }
+
+  .adult {
+    width: 100px !important;
+  }
+  .div5 {
+    background-color: #8e7037;
+  }
+}

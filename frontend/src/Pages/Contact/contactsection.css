@@ -1,0 +1,98 @@
+.contactbelowsectiondescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start !important;
+}
+::placeholder {
+  color: black !important;
+  padding: 10px !important;
+}
+
+.sendbutton {
+  background-color: #8e7037;
+  color: white;
+  width: 30%;
+  height: 15%;
+  font-weight: bold;
+  border: none;
+}
+.inputForName,
+.inputForEmail,
+.inputForSubject {
+  width: 100%;
+  border: 2px solid black;
+}
+.inputForMessage {
+  width: 100% !important;
+  border: 2px solid black;
+  height: 200px !important;
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .inputForName {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 15px !important;
+  }
+  .inputForEmail,
+  .inputForSubject {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+  }
+  .sendbutton {
+    width: 60%;
+    height: 10%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .contactDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .shareyourfeddback {
+    width: 100%;
+
+    align-items: flex-start;
+  }
+  .inputForName {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 15px !important;
+  }
+  .inputForEmail,
+  .inputForSubject {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+  }
+  .contactForm {
+    width: 100%;
+  }
+  .sendbutton {
+    width: 60%;
+    height: 10%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .inputForName {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 15px !important;
+  }
+  .inputForEmail,
+  .inputForSubject {
+    width: 100% !important;
+    border: 2px solid black;
+    height: 50px;
+  }
+  .sendbutton {
+    width: 60%;
+    height: 10%;
+  }
+}
